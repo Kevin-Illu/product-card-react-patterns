@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { createContext } from "react";
-
 import { useProduct } from "../hooks/useProduct";
 import {
   ProductContextProps,
@@ -41,7 +40,7 @@ export const ProductCard = ({
       }}
     >
       <div
-        className={`${className} p-2 max-w-[16rem] h-fit bg-stone-700 rounded-lg`}
+        className={`${className}`}
         style={styles}
       >
         {children({
