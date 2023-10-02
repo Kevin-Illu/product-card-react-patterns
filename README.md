@@ -1,5 +1,11 @@
 # Product Card
 
+instalacion de paquete
+
+```sh
+npm i product-card-react-patterns
+```
+
 ## Ejemplo de uso
 
 ```jsx
